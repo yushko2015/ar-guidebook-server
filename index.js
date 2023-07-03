@@ -6,7 +6,7 @@ const mongoString = process.env.DATABASE_URL;
 
 
 const allowedOrigins = ['http://localhost:3000',
-                      'http://localhost:5173'];
+                      'http://localhost:5173', 'https://ar-guidebook.pp.ua'];
 
 mongoose.connect(mongoString);
 const database = mongoose.connection;
